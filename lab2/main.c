@@ -5,7 +5,7 @@ int send_email(char* account, char* password, char* from_email, char* to_email,
         char* subject, char* body, char* attachment_path);
 
 int main(int argc, char** argv){
-	char username[20];
+	char username[50];
 	char password[50];
 	char from_email[50];
 	char to_email[50];
