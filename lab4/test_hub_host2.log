@@ -1,27 +1,13 @@
-07:21:46.084892 66:77:88:00:00:02 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:2 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
-	  source link-address option (1), length 8 (1): 66:77:88:00:00:02
-07:21:46.179934 66:77:88:00:00:03 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:3 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
-	  source link-address option (1), length 8 (1): 66:77:88:00:00:03
-07:21:47.108759 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 18131, offset 0, flags [DF], proto ICMP (1), length 84)
-    10.0.0.1 > 10.0.0.4: ICMP echo request, id 12, seq 1, length 64
-07:21:47.172487 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 51403, offset 0, flags [none], proto ICMP (1), length 84)
-    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 12, seq 1, length 64
-07:21:47.971948 66:77:88:00:00:04 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:4 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
-	  source link-address option (1), length 8 (1): 66:77:88:00:00:04
-07:21:48.132048 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 18376, offset 0, flags [DF], proto ICMP (1), length 84)
-    10.0.0.1 > 10.0.0.4: ICMP echo request, id 12, seq 2, length 64
-07:21:48.132114 66:77:88:00:00:01 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:1 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
-	  source link-address option (1), length 8 (1): 66:77:88:00:00:01
-07:21:48.164831 66:77:88:00:00:05 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:5 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
-	  source link-address option (1), length 8 (1): 66:77:88:00:00:05
-07:21:48.196321 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 51550, offset 0, flags [none], proto ICMP (1), length 84)
-    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 12, seq 2, length 64
-07:21:49.156452 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 18413, offset 0, flags [DF], proto ICMP (1), length 84)
-    10.0.0.1 > 10.0.0.4: ICMP echo request, id 12, seq 3, length 64
-07:21:49.188106 66:77:88:00:00:06 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:6 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
-	  source link-address option (1), length 8 (1): 66:77:88:00:00:06
-07:21:49.220471 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 51693, offset 0, flags [none], proto ICMP (1), length 84)
-    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 12, seq 3, length 64
-07:21:50.244987 66:77:88:00:00:08 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:8 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
-	  source link-address option (1), length 8 (1): 66:77:88:00:00:08
+14:24:51.908398 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 60191, offset 0, flags [DF], proto ICMP (1), length 84)
+    10.0.0.1 > 10.0.0.4: ICMP echo request, id 24, seq 1, length 64
+14:24:51.972477 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 8438, offset 0, flags [none], proto ICMP (1), length 84)
+    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 24, seq 1, length 64
+14:24:52.932330 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 60206, offset 0, flags [DF], proto ICMP (1), length 84)
+    10.0.0.1 > 10.0.0.4: ICMP echo request, id 24, seq 2, length 64
+14:24:52.996314 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 8635, offset 0, flags [none], proto ICMP (1), length 84)
+    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 24, seq 2, length 64
+14:24:53.956148 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 60296, offset 0, flags [DF], proto ICMP (1), length 84)
+    10.0.0.1 > 10.0.0.4: ICMP echo request, id 24, seq 3, length 64
+14:24:54.021385 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 8713, offset 0, flags [none], proto ICMP (1), length 84)
+    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 24, seq 3, length 64
 
