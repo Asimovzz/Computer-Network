@@ -93,7 +93,7 @@ test_router:
 	docker exec -dit device2 bash -c "./$(TARGET) device2 router"
 	docker exec -dit device3 bash -c "./$(TARGET) device3 router"
 	docker exec -dit device4 bash -c "./$(TARGET) device4 router"
-	docker exec -it host1 bash -c "ping 10.0.5.2 -c 5"
+	docker exec -it host1 bash -c "ping 10.0.5.2 -c 10"
 	sleep 1
 	docker exec device1 bash -c "killall $(TARGET)"
 	docker exec device2 bash -c "killall $(TARGET)"

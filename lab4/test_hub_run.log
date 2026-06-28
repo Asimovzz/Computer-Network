@@ -1,0 +1,6 @@
+docker cp device device:/device
+docker exec -dit device bash -c "./device device hub"
+docker exec -dit host2 bash -c "tcpdump -i host2-eth0 -ne -v > test_hub_host2.log"
+sleep 1
+docker exec -it host1 bash -c "ping 10.0.0.4 -c 3 > test_hub_host1.log"
+make: *** [Makefile:46: test_hub] Error 1

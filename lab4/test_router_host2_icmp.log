@@ -1,0 +1,18 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on host2-eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:16:46.989008 66:77:88:00:01:01 > 66:77:88:00:05:02, ethertype IPv4 (0x0800), length 98: 10.0.1.1 > 10.0.5.2: ICMP echo request, id 12, seq 5, length 64
+15:16:46.989217 66:77:88:00:05:02 > 66:77:88:00:01:01, ethertype IPv4 (0x0800), length 98: 10.0.5.2 > 10.0.1.1: ICMP echo reply, id 12, seq 5, length 64
+15:16:48.012311 66:77:88:00:01:01 > 66:77:88:00:05:02, ethertype IPv4 (0x0800), length 98: 10.0.1.1 > 10.0.5.2: ICMP echo request, id 12, seq 6, length 64
+15:16:48.012344 66:77:88:00:05:02 > 66:77:88:00:01:01, ethertype IPv4 (0x0800), length 98: 10.0.5.2 > 10.0.1.1: ICMP echo reply, id 12, seq 6, length 64
+15:16:49.036322 66:77:88:00:01:01 > 66:77:88:00:05:02, ethertype IPv4 (0x0800), length 98: 10.0.1.1 > 10.0.5.2: ICMP echo request, id 12, seq 7, length 64
+15:16:49.036373 66:77:88:00:05:02 > 66:77:88:00:01:01, ethertype IPv4 (0x0800), length 98: 10.0.5.2 > 10.0.1.1: ICMP echo reply, id 12, seq 7, length 64
+15:16:50.061405 66:77:88:00:01:01 > 66:77:88:00:05:02, ethertype IPv4 (0x0800), length 98: 10.0.1.1 > 10.0.5.2: ICMP echo request, id 12, seq 8, length 64
+15:16:50.061455 66:77:88:00:05:02 > 66:77:88:00:01:01, ethertype IPv4 (0x0800), length 98: 10.0.5.2 > 10.0.1.1: ICMP echo reply, id 12, seq 8, length 64
+15:16:51.084411 66:77:88:00:01:01 > 66:77:88:00:05:02, ethertype IPv4 (0x0800), length 98: 10.0.1.1 > 10.0.5.2: ICMP echo request, id 12, seq 9, length 64
+15:16:51.084463 66:77:88:00:05:02 > 66:77:88:00:01:01, ethertype IPv4 (0x0800), length 98: 10.0.5.2 > 10.0.1.1: ICMP echo reply, id 12, seq 9, length 64
+15:16:52.108504 66:77:88:00:01:01 > 66:77:88:00:05:02, ethertype IPv4 (0x0800), length 98: 10.0.1.1 > 10.0.5.2: ICMP echo request, id 12, seq 10, length 64
+15:16:52.108554 66:77:88:00:05:02 > 66:77:88:00:01:01, ethertype IPv4 (0x0800), length 98: 10.0.5.2 > 10.0.1.1: ICMP echo reply, id 12, seq 10, length 64
+
+12 packets captured
+12 packets received by filter
+0 packets dropped by kernel

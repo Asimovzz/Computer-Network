@@ -1,13 +1,25 @@
-14:24:51.908398 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 60191, offset 0, flags [DF], proto ICMP (1), length 84)
-    10.0.0.1 > 10.0.0.4: ICMP echo request, id 24, seq 1, length 64
-14:24:51.972477 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 8438, offset 0, flags [none], proto ICMP (1), length 84)
-    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 24, seq 1, length 64
-14:24:52.932330 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 60206, offset 0, flags [DF], proto ICMP (1), length 84)
-    10.0.0.1 > 10.0.0.4: ICMP echo request, id 24, seq 2, length 64
-14:24:52.996314 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 8635, offset 0, flags [none], proto ICMP (1), length 84)
-    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 24, seq 2, length 64
-14:24:53.956148 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 60296, offset 0, flags [DF], proto ICMP (1), length 84)
-    10.0.0.1 > 10.0.0.4: ICMP echo request, id 24, seq 3, length 64
-14:24:54.021385 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 8713, offset 0, flags [none], proto ICMP (1), length 84)
-    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 24, seq 3, length 64
+tcpdump: listening on host2-eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:15:26.508496 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 49010, offset 0, flags [DF], proto ICMP (1), length 84)
+    10.0.0.1 > 10.0.0.4: ICMP echo request, id 10, seq 1, length 64
+15:15:26.573046 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 42102, offset 0, flags [none], proto ICMP (1), length 84)
+    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 10, seq 1, length 64
+15:15:26.860037 66:77:88:00:00:03 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:3 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
+	  source link-address option (1), length 8 (1): 66:77:88:00:00:03
+15:15:27.533183 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 49181, offset 0, flags [DF], proto ICMP (1), length 84)
+    10.0.0.1 > 10.0.0.4: ICMP echo request, id 10, seq 2, length 64
+15:15:27.533287 66:77:88:00:00:02 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:2 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
+	  source link-address option (1), length 8 (1): 66:77:88:00:00:02
+15:15:27.596788 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 42118, offset 0, flags [none], proto ICMP (1), length 84)
+    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 10, seq 2, length 64
+15:15:28.556213 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 49345, offset 0, flags [DF], proto ICMP (1), length 84)
+    10.0.0.1 > 10.0.0.4: ICMP echo request, id 10, seq 3, length 64
+15:15:28.621082 66:77:88:00:00:08 > 66:77:88:00:00:02, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 42349, offset 0, flags [none], proto ICMP (1), length 84)
+    10.0.0.4 > 10.0.0.1: ICMP echo reply, id 10, seq 3, length 64
+15:15:28.908024 66:77:88:00:00:04 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:4 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
+	  source link-address option (1), length 8 (1): 66:77:88:00:00:04
+15:15:31.629275 66:77:88:00:00:01 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:1 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
+	  source link-address option (1), length 8 (1): 66:77:88:00:00:01
 
+10 packets captured
+10 packets received by filter
+0 packets dropped by kernel

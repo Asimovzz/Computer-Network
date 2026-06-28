@@ -1,7 +1,13 @@
-07:28:59.812275 66:77:88:00:00:02 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:2 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
-	  source link-address option (1), length 8 (1): 66:77:88:00:00:02
-07:28:59.877139 66:77:88:00:00:06 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:6 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
+tcpdump: listening on host2-eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:15:49.836497 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 50773, offset 0, flags [DF], proto ICMP (1), length 84)
+    10.0.0.1 > 10.0.0.4: ICMP echo request, id 11, seq 1, length 64
+15:15:49.869042 66:77:88:00:00:08 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:8 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
+	  source link-address option (1), length 8 (1): 66:77:88:00:00:08
+15:15:49.869368 66:77:88:00:00:06 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:6 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
 	  source link-address option (1), length 8 (1): 66:77:88:00:00:06
-07:29:00.836488 66:77:88:00:00:02 > 66:77:88:00:00:08, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 48014, offset 0, flags [DF], proto ICMP (1), length 84)
-    10.0.0.1 > 10.0.0.4: ICMP echo request, id 13, seq 1, length 64
+15:15:58.060697 66:77:88:00:00:07 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::6477:88ff:fe00:7 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
+	  source link-address option (1), length 8 (1): 66:77:88:00:00:07
 
+4 packets captured
+4 packets received by filter
+0 packets dropped by kernel
